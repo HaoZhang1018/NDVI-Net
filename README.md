@@ -21,4 +21,5 @@ Put training image pairs in the "Train_NDVI", "Train_HRVI" and "Train_Label" fol
 Put test image pairs in the "Test_NDVI" and "Test_HRVI" folders, and run "CUDA_VISIBLE_DEVICES=0 python demo.py" to test the trained model.
 You can also directly use the trained model we provide (only Quickbird and GF-2).
 
-
+#### Post-processing (optional): Histogram specification based on image decomposition :<br>
+Run "Decomp_Hist_specification.m" to reduce the drift of network and enhance the generalization ability of the model.
